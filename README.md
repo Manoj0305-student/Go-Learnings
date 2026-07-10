@@ -19,9 +19,13 @@ Master Go fundamentals and build practical applications.
 ### Concepts Completed
 - [x] **00-introduction.md** - What is Go, features, compilation, registers, comparison with Python & Java
 - [x] **01-packages-imports.md** - Packages, imports, custom packages, aliases, go.mod
+- [x] **02-variables.md** - Variable declaration, data type basics, multiple variables
+- [x] **03-data-types.md** - Numeric types, string, boolean, composite types (arrays, slices, maps, structs)
+- [x] **04-control-statements.md** - If/Else, Switch/Case, For loops, Break, Continue, Range function
 
 ### Daily Progress
-- [ ] Day 1: Your First Go Program
+- [x] Day 1: Your First Go Program
+- [x] **control-statements/** - Practice questions and solutions (5 problems solved)
 
 ---
 
@@ -45,6 +49,35 @@ go run simple-import.go
 go run multiple-imports.go
 go run custom-imports.go
 ```
+
+---
+
+## 📖 Learning Approach
+
+1. **Concept Learning** - Read markdown files in `concepts/` folder
+2. **Understanding** - Study memory points and examples
+3. **Practice** - Solve problems in `daily-progress/` folder
+4. **Review** - Compare solutions and understand different approaches
+5. **Repeat** - Move to next concept
+
+---
+
+## 🎓 Tips for Learning
+
+- Read the `.md` file completely before attempting practice questions
+- Run the examples and modify them to understand better
+- Try solving practice questions without looking at solutions first
+- If stuck, review the concept explanation, then check the solution
+- Don't just copy-paste code; type it out to build muscle memory
+
+---
+
+## 📞 How to Contribute
+
+If you find errors or have suggestions:
+1. Review the content
+2. Test the examples
+3. Submit improvements
 
 ---
 
@@ -74,3 +107,4 @@ go run concepts/example-code/simple-import.go
 
 Created: July 2026
 Last Updated: July 2026
+Status: Actively Learning 🚀
