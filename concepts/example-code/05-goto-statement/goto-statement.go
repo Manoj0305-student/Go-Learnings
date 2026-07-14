@@ -1,13 +1,13 @@
 package gotostatement
 import ("fmt")
 
-func gotoStatement() {
+func GotoStatement() {
 
 	counter := 0
 
 	loop: 
 		counter++
-		fmt.Println(counter)
+		fmt.Print(counter," ")
 
 	if counter <= 5 {
 		goto loop
