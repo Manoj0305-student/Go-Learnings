@@ -331,6 +331,9 @@ Count how many times a specific element appears in an array.
 ### Question 9: Rotate Array
 Rotate an array right and left by k positions.
 
+### Question 10: Merge Two Arrays
+Merge two sorted arrays into one sorted array.
+
 
 
 **How to use this section:**
