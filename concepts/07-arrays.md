@@ -320,6 +320,18 @@ Reverse the order of elements in an array without using built-in functions.
 
 ---
 
+## Medium Problems (Array Manipulation)
+
+### Question 6: Search in Array
+Search for a specific element in an array and return its index. Return -1 if not found.
+
+### Question 7: Count Occurrences
+Count how many times a specific element appears in an array.
+
+### Question 9: Rotate Array
+Rotate an array right and left by k positions.
+
+
 
 **How to use this section:**
 1. Try solving each question yourself first
