@@ -334,6 +334,25 @@ Rotate an array right and left by k positions.
 ### Question 10: Merge Two Arrays
 Merge two sorted arrays into one sorted array.
 
+## Hard Problems (Array techinique)
+
+### Question 11: Two Sum 
+Given an unsorted slice of integers nums and an integer target, return the indices of the two numbers such that they add up to the target.
+
+### Question 12: Contains duplicates
+Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
+
+### Question 13: Move Zeros at end
+You are given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Note that you must do this in-place without making a copy of the array.
+
+### Question 14: Best Time to Buy and Sell Stock
+You are given an integer array prices where prices[i] is the price of NeetCoin on the ith day.
+
+You may choose a single day to buy one NeetCoin and choose a different day in the future to sell it.
+
+Return the maximum profit you can achieve. You may choose to not make any transactions, in which case the profit would be 0.
 
 
 **How to use this section:**
