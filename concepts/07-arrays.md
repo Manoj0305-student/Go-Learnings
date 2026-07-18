@@ -354,8 +354,30 @@ You may choose a single day to buy one NeetCoin and choose a different day in th
 
 Return the maximum profit you can achieve. You may choose to not make any transactions, in which case the profit would be 0.
 
+### Question 15: Maximum Subarray
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
-**How to use this section:**
+### Question 16: Maximum Subarray with Average
+Given an array of integers, find the maximum average of a contiguous subarray of size K.
+
+### Question 17: Maximum Count of Target Elements
+You are sitting in your garden looking at a long wooden fence. Birds are sitting on the fence posts. Some are beautiful Blue Jays (represented by the number 1), and some are other birds (represented by the number 0).
+You have a special camera lens that can only see exactly three fence posts at a time (K=3). You want to slide your camera along the fence to find the spot where you can see the maximum number of Blue Jays at once!
+
+### Question 18: The Gold Star Telescope (Counting Specific Targets of Size K)
+You are looking at a row of slots in the night sky through a telescope. Each slot has something different:
+
+7 = A Rare Gold Star (Our target!)
+
+1 = A normal star
+
+2 = A moon
+
+0 = A dark cloud
+
+Your telescope lens can only see exactly four slots at a time (K=4). You want to slide the telescope along the sky to find the view that has the maximum number of Rare Gold Stars (7s) at once.
+
+## How to use this section:
 1. Try solving each question yourself first
 2. If you get stuck, check the solution in `daily-progress/arrays/` folder
 3. Compare your code with the solution
