@@ -5,10 +5,8 @@ on:
     branches:
       - main
       - master
-    paths:
-      - 'concepts/**'
-      - 'daily-progress/**'
-      - '.github/workflows/update-readme.yml'
+    paths-ignore:
+      - 'README.md'
 
 jobs:
   update-readme:
@@ -20,6 +18,8 @@ jobs:
       
       - name: Run update-readme script
         run: bash update-readme.sh
+        env:
+          TZ: 'Asia/Kolkata'
       
       - name: Check if README changed
         id: readme-changed

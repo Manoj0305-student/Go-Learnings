@@ -31,7 +31,7 @@ func TwoSum(arr []int, target int) []int {
 
 		}
 
-		elements[result] = index
+		elements[value] = index
 	}
 
 
