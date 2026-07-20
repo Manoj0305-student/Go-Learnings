@@ -28,8 +28,8 @@ Master Go fundamentals and build practical applications.
 - [x] **08-scope.md** - Scope in Go
 
 ### Daily Progress
-- [x] **arrays/**
-- [x] **control-statements/**
+- [x] **01-control-statements/**
+- [x] **02-arrays/**
 
 ---
 
