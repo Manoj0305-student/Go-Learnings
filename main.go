@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	// printingHelloworld "go-learnings/concepts/example-code/01-package-imports"
-	controlstatementproblems "go-learnings/daily-progress/control-statements"
-	arrays "go-learnings/daily-progress/arrays"
+	controlstatementproblems "go-learnings/daily-progress/01-control-statements"
+	arrays "go-learnings/daily-progress/02-arrays"
 )
 
 func main() {
