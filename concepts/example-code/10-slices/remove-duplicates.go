@@ -17,6 +17,6 @@ func RemoveDuplicates(arr []int) []int{
 			slice[j] = arr[i]
 		}
 	}
-	return slice
+	return slice[:j+1]
 
 }
