@@ -687,6 +687,17 @@ false
  
 ---
 
+## Predict the output
+
+```go
+arr := [5]int{1, 2, 3, 4, 5}
+s1 := arr[0:2]        // [1 2]
+s2 := append(s1, 99)  // append ONE element
+
+fmt.Println(arr)
+fmt.Println(s2)
+```
+
 ## Key Differences: Array vs Slice
  
 | Feature | Array | Slice |
