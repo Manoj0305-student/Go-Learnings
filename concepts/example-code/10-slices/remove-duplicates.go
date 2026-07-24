@@ -7,12 +7,15 @@ func RemoveDuplicates(arr []int) []int{
 	}
 
 	slice := make([]int,len(arr))
-	
-	for i:=0 ; i < len(arr)-1 ; i++ {
-		if arr[i] == arr[i+1] {
-			slice[i] = arr[i]
+
+	j:=0
+	//1,1,2,2,3
+	slice[0] = arr[0]
+	for i:=1 ; i < len(arr) ; i++ {
+		if arr[i] != slice[j] {
+			j++
+			slice[j] = arr[i]
 		}
-		slice[i] = arr[i]
 	}
 	return slice
 
